@@ -8,7 +8,7 @@
         "widget.shadow": "#000000",
         "selection.background": "#888888",
         "descriptionForeground": "#333333",
-        "errorForeground": "#5f8787",
+        "errorForeground": "#9f3434",
         "icon.foreground": "#999999",
         "textBlockQuote.background": "#121212",
         "textBlockQuote.border": "#888888",
@@ -36,9 +36,9 @@
         "inputOption.activeBackground": "#222222",
         "inputOption.activeBorder": "#aaaaaa",
         "inputOption.activeForeground": "#c1c1c1",
-        "inputValidation.errorBackground": "#5f8787",
+        "inputValidation.errorBackground": "#9f3434",
         "inputValidation.errorForeground": "#c1c1c1",
-        "inputValidation.errorBorder": "#5f8787",
+        "inputValidation.errorBorder": "#9f3434",
         "inputValidation.infoBackground": "#888888",
         "inputValidation.infoForeground": "#c1c1c1",
         "inputValidation.infoBorder": "#888888",
@@ -64,7 +64,7 @@
         "list.inactiveSelectionForeground": "#c1c1c1",
         "list.inactiveFocusBackground": "#222222",
         "list.invalidItemForeground": "#5f8787",
-        "list.errorForeground": "#5f8787",
+        "list.errorForeground": "#9f3434",
         "list.warningForeground": "#5f81a5",
         "listFilterWidget.background": "#000000",
         "listFilterWidget.noMatchesOutline": "#5f8787",
@@ -85,7 +85,7 @@
         "sideBarSectionHeader.foreground": "#c1c1c1",
         "minimap.findMatchHighlight": "#5f81a56f",
         "minimap.selectionHighlight": "#2222226f",
-        "minimap.errorHighlight": "#5f8787",
+        "minimap.errorHighlight": "#9f3434",
         "minimap.warningHighlight": "#5f81a5",
         "minimap.background": "#000000",
         "minimap.selectionOccurrenceHighlight": "#333333",
@@ -160,15 +160,15 @@
         "editorOverviewRuler.modifiedForeground": "#999999",
         "editorOverviewRuler.addedForeground": "#d0dfee",
         "editorOverviewRuler.deletedForeground": "#5f8787",
-        "editorOverviewRuler.errorForeground": "#5f8787",
+        "editorOverviewRuler.errorForeground": "#9f3434",
         "editorOverviewRuler.warningForeground": "#5f81a5",
         "editorOverviewRuler.infoForeground": "#aaaaaa",
         "editorOverviewRuler.bracketMatchForeground": "#999999",
-        "editorError.foreground": "#5f8787",
+        "editorError.foreground": "#9f3434",
         "editorWarning.foreground": "#5f81a5",
         "editorInfo.foreground": "#aaaaaa",
         "editorHint.foreground": "#888888",
-        "problemsErrorIcon.foreground": "#5f8787",
+        "problemsErrorIcon.foreground": "#9f3434",
         "problemsWarningIcon.foreground": "#5f81a5",
         "problemsInfoIcon.foreground": "#aaaaaa",
         "editorGutter.background": "#000000",
@@ -192,7 +192,7 @@
         "editorHoverWidget.background": "#000000",
         "debugExceptionWidget.background": "#121212",
         "editorMarkerNavigation.background": "#121212",
-        "editorMarkerNavigationError.background": "#5f8787",
+        "editorMarkerNavigationError.background": "#9f3434",
         "editorMarkerNavigationWarning.background": "#5f81a5",
         "editorMarkerNavigationInfo.background": "#888888",
         "editorMarkerNavigationError.headerBackground": "#5f878720",
@@ -235,7 +235,7 @@
         "statusBarItem.prominentHoverBackground": "#5f8787",
         "statusBarItem.remoteBackground": "#d0dfee",
         "statusBarItem.remoteForeground": "#c1c1c1",
-        "statusBarItem.errorBackground": "#5f8787",
+        "statusBarItem.errorBackground": "#9f3434",
         "statusBarItem.errorForeground": "#c1c1c1",
         "statusBarItem.warningBackground": "#5f81a5",
         "statusBarItem.warningForeground": "#c1c1c1",
@@ -259,7 +259,7 @@
         "notifications.foreground": "#c1c1c1",
         "notifications.background": "#222222",
         "notificationLink.foreground": "#888888",
-        "notificationsErrorIcon.foreground": "#5f8787",
+        "notificationsErrorIcon.foreground": "#9f3434",
         "notificationsWarningIcon.foreground": "#5f81a5",
         "notificationsInfoIcon.foreground": "#888888",
         "notification.background": "#222222",
@@ -324,7 +324,7 @@
         "debugTokenExpression.string": "#d0dfee",
         "debugTokenExpression.boolean": "#aaaaaa",
         "debugTokenExpression.number": "#aaaaaa",
-        "debugTokenExpression.error": "#5f8787",
+        "debugTokenExpression.error": "#9f3434",
         "testing.iconFailed": "#5f8787",
         "testing.iconErrored": "#444444",
         "testing.iconPassed": "#d0dfee",
@@ -503,7 +503,7 @@
                 "invalid.illegal"
             ],
             "settings": {
-                "foreground": "#5f8787"
+                "foreground": "#875f5f"
             }
         },
         {
@@ -525,9 +525,9 @@
                 "keyword.other.class",
                 "keyword.other.new",
                 "keyword.other.event",
-                "keyword.other.this",
                 "keyword.other.await",
                 "keyword.other.var",
+                "keyword.other.return",
                 "keyword.other.package",
                 "keyword.other.import",
                 "variable.language.this",
@@ -545,6 +545,7 @@
                 "keyword.control.flow",
                 "keyword.control.from",
                 "keyword.control.import",
+                "keyword.control.return",
                 "keyword.control.as"
             ],
             "settings": {
@@ -567,7 +568,7 @@
                 "storage.type.function"
             ],
             "settings": {
-                "foreground": "#888888"
+                "foreground": "#5f81a5"
             }
         },
         {
@@ -1187,7 +1188,7 @@
         {
             "scope": "token.error-token",
             "settings": {
-                "foreground": "#5f8787"
+                "foreground": "#9f3434"
             }
         },
         {
